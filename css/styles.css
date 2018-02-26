@@ -1,0 +1,131 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*fonts*/
+
+.coda {
+    font-family: "Coda", cursive;
+}
+
+.arima {
+    font-family: "Arima Madurai", cursive;
+}
+
+.sun {
+    font-family: "Waiting for the Sunrise", cursive;
+}
+
+/*MOBILE FIRST*/
+
+#header {
+    display: flex;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-bottom: 1px solid #E7717D;
+    color: #E7717D;
+
+    grid-area: header;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    float: left;
+    margin-top: auto;
+    padding: 0.1em;
+}
+
+#name {
+    text-align: right;
+}
+
+#color-panel {
+    display: flex;
+    padding: 1em 0;
+
+    grid-area: colors;
+    justify-content: space-around;
+}
+
+#color-1,
+#color-2,
+#color-3 {
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 50px;
+    height: 50px;
+}
+
+#color-1 {
+    background-color: #E7717D;
+}
+
+#color-2 {
+    background-color: #C2CAD0;
+}
+
+#color-3 {
+    background-color: #AFD275;
+}
+
+#main {
+    padding: 1em 0;
+
+    grid-area: main;
+}
+
+#work-h2 {
+    color: #C2CAD0;
+    font-weight: 300;
+}
+
+#feat-work {
+    padding: 1em 0;
+    text-align: center;
+
+    grid-area: work;
+}
+
+.feat-item {
+    margin: 2em 0;
+
+    text-align: center;
+}
+
+.feat-item h2 {
+    background-color: #AFD275;
+
+    color: #fff;
+}
+
+.git-link {
+    color: #C2CAD0;
+}
+
+#footer {
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    background-color: #E7717D;
+
+    grid-area: footer;
+}
+
+#social {
+    font-size: 1.5em;
+}
