@@ -3,28 +3,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="author" content="Daniel Beringer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:100|Waiting+for+the+Sunrise" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:100%7CWaiting+for+the+Sunrise" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <title>Portfolio - 2nd project</title>
 </head>
 
 <body>
     <div class="grid-container">
-        <header id="header" class="arima">
-            <div id="logo"><img src="img/img_opt/udacity-logo.jpg" alt="Udacity Logo" height="60px">
+        <!-- HEADER -->
+        <header class="arima">
+            <div id="logo"><img src="img/img_opt/udacity-logo.jpg" alt="Udacity Logo" height="60">
             </div>
-            <div id="name">
+            <div id="author">
                 <h1 class="uppercase">Jane Doette</h1>
                 <p class="uppercase">Front-end ninja</p>
             </div>
         </header>
+        <!-- MAIN -->
         <section id="main">
-            <img src="img/img_opt/webdesign-small.jpg" srcset="img/img_opt/webdesign-medium.jpg 1x, img/img_opt/webdesign-large.jpg 2x" alt="A picture of a laptop, notebook and a book">
+            <img src="img/img_opt/webdesign-small.jpg"
+            srcset="img/img_opt/webdesign-small.jpg 600w, img/img_opt/webdesign-medium.jpg 800w, img/img_opt/webdesign-large.jpg 1024w" alt="A picture of a laptop, notebook and a book">
         </section>
+        <!-- COLOR PANELS -->
         <section id="color-panel" class="sun">
             <div class="color-item">
                 <div id="color-1"></div>
@@ -39,34 +43,40 @@
                 <p class="color-label">#AFD275</p>
             </div>
         </section>
+        <!-- FEATURED WORK -->
         <section id="feat-work">
-            <h2 id="work-h2" class="arima">Featured Work</h2>
+            <h2 id="feat-work-title" class="arima">Featured Work</h2>
             <div class="feat-items-wrap">
                 <div class="feat-item">
-                    <img src="img/img_opt/code-small.jpg" srcset="img/img_opt/code-medium.jpg 1x, img/img_opt/code-large.jpg 2x" alt="A picture of code on a laptop screen">
+                    <img src="img/img_opt/code-small.jpg" srcset="img/img_opt/code-small.jpg 600w, img/img_opt/code-medium.jpg 800w, img/img_opt/code-large.jpg 1024w" alt="A picture of code on a laptop screen">
                     <h2 class="uppercase arima">PHP app</h2>
                     <a class="git-link sun">github.com/example/app1</a>
                 </div>
                 <div class="feat-item">
-                    <img src="img/img_opt/ipad-small.jpg" srcset="img/img_opt/ipad-medium.jpg 1x, img/img_opt/ipad-large.jpg 2x" alt="A picture of an iPad, mouse and keyboard">
+                    <img src="img/img_opt/ipad-small.jpg" srcset="img/img_opt/ipad-medium.jpg 600w, img/img_opt/ipad-medium.jpg 800w, img/img_opt/ipad-large.jpg 1024w" alt="A picture of an iPad, mouse and keyboard">
                     <h2 class="uppercase arima">RWD Website</h2>
                     <a class="git-link sun">github.com/example/app2</a>
                 </div>
-                <div class="feat-item arima">
-                    <img src="img/img_opt/mac-small.jpg" srcset="img/img_opt/mac-medium.jpg 1x, img/img_opt/mac-large.jpg 2x" alt="A picture of a Mac computer on a desk with a flower in a pot on the left side">
-                    <h2 class="uppercase">Web app</h2>
+                <div class="feat-item">
+                    <img src="img/img_opt/mac-small.jpg"
+                    srcset="img/img_opt/mac-small.jpg 600w, img/img_opt/mac-medium.jpg 800w, img/img_opt/mac-large.jpg 1024w" alt="A picture of a Mac computer on a desk with a flower in a pot on the left side"
+                    sizes="()">
+                    <h2 class="uppercase arima">Web app</h2>
                     <a class="git-link sun">github.com/example/app3</a>
                 </div>
 
             </div>
         </section>
-        <footer id="footer">
+        <!-- FOOTER -->
+        <footer>
             <p class="arima">Find me on:</p>
             <div id="social">
-                <span class="fab fa-fw fa-git"></span>
-                <span class="fab fa-fw fa-twitter"></span>
-                <span class="fab fa-fw fa-linkedin-in"></span>
-            </div>
+                <a href="#"><span class="fab fa-fw fa-git"></span>
+                    </a>
+                <a href=""><span class="fab fa-fw fa-twitter"></span>
+                         </a>
+                <a href=""><span class="fab fa-fw fa-linkedin-in"></span>
+                                             </a> </div>
         </footer>
     </div>
 </body>
