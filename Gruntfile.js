@@ -23,18 +23,18 @@ module.exports = function (grunt) {
                 options: {
                     engine: 'im',
                     sizes: [{
-                        name: 'small',
-                        width: 600,
-                        quality: 50
+                        name: '350',
+                        width: 350,
+                        quality: 75
           }, {
-                        name: 'medium',
-                        width: 800,
-                        quality: 50
+                        name: '450',
+                        width: 450,
+                        quality: 80
 
           }, {
-                        name: 'large',
-                        width: 1024,
-                        quality: 80
+                        name: '600',
+                        width: 600,
+                        quality: 70
 
           }]
                 },

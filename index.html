@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:100%7CWaiting+for+the+Sunrise" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <title>Portfolio - 2nd project</title>
 </head>
 
@@ -25,8 +24,13 @@
         </header>
         <!-- MAIN -->
         <section id="main">
-            <img src="img/img_opt/webdesign-small.jpg"
-            srcset="img/img_opt/webdesign-small.jpg 600w, img/img_opt/webdesign-medium.jpg 800w, img/img_opt/webdesign-large.jpg 1024w" alt="A picture of a laptop, notebook and a book">
+            <img src="img/img_opt/webdesign-450.jpg" srcset="img/img_opt/webdesign-450.jpg 450w,
+            img/img_opt/webdesign-700.jpg 700w,
+            img/img_opt/webdesign-905.jpg 905w"
+            sizes="(max-width: 549px) 100vw,
+            (min-width: 550px) calc(80vw - 82px),
+            (mid-width: 1024px) 905px"
+            alt="A picture of a laptop, notebook and a book">
         </section>
         <!-- COLOR PANELS -->
         <section id="color-panel" class="sun">
@@ -48,19 +52,38 @@
             <h2 id="feat-work-title" class="arima">Featured Work</h2>
             <div class="feat-items-wrap">
                 <div class="feat-item">
-                    <img src="img/img_opt/code-small.jpg" srcset="img/img_opt/code-small.jpg 600w, img/img_opt/code-medium.jpg 800w, img/img_opt/code-large.jpg 1024w" alt="A picture of code on a laptop screen">
+                    <img src="img/img_opt/code-450.jpg"
+                    srcset="img/img_opt/code-350.jpg 350w,
+                    img/img_opt/code-450.jpg 450w,
+                    img/img_opt/code-600.jpg 600w"
+                    sizes="(max-width: 549px) 100vw,
+                    (min-width: 550px) calc(80vw - 52%),
+                    (min-width: 1024px) 300px"
+                    alt="A picture of code on a laptop screen">
                     <h2 class="uppercase arima">PHP app</h2>
                     <a class="git-link sun">github.com/example/app1</a>
                 </div>
                 <div class="feat-item">
-                    <img src="img/img_opt/ipad-small.jpg" srcset="img/img_opt/ipad-medium.jpg 600w, img/img_opt/ipad-medium.jpg 800w, img/img_opt/ipad-large.jpg 1024w" alt="A picture of an iPad, mouse and keyboard">
+                    <img src="img/img_opt/ipad-450.jpg"
+                    srcset="img/img_opt/ipad-350.jpg 350w,
+                    img/img_opt/ipad-450.jpg 450w,
+                    img/img_opt/ipad-600.jpg 600w"
+                    sizes="(max-width: 549px) 100vw,
+                    (min-width: 550px) calc(80vw - 52%),
+                    (min-width: 1024px) 300px"
+                    alt="A picture of an iPad, mouse and keyboard">
                     <h2 class="uppercase arima">RWD Website</h2>
                     <a class="git-link sun">github.com/example/app2</a>
                 </div>
                 <div class="feat-item">
-                    <img src="img/img_opt/mac-small.jpg"
-                    srcset="img/img_opt/mac-small.jpg 600w, img/img_opt/mac-medium.jpg 800w, img/img_opt/mac-large.jpg 1024w" alt="A picture of a Mac computer on a desk with a flower in a pot on the left side"
-                    sizes="()">
+                    <img src="img/img_opt/mac-450.jpg"
+                    srcset="img/img_opt/mac-350.jpg 350w,
+                    img/img_opt/mac-450.jpg 450w,
+                    img/img_opt/mac-600.jpg 600w"
+                    sizes="(max-width: 549px) 100vw,
+                    (min-width: 550px) calc(80vw - 52%),
+                    (min-width: 1024px) 300px"
+                    alt="A picture of a Mac computer on a desk with a flower in a pot on the left side">
                     <h2 class="uppercase arima">Web app</h2>
                     <a class="git-link sun">github.com/example/app3</a>
                 </div>
@@ -72,13 +95,15 @@
             <p class="arima">Find me on:</p>
             <div id="social">
                 <a href="#"><span class="fab fa-fw fa-git"></span>
-                    </a>
+                </a>
                 <a href=""><span class="fab fa-fw fa-twitter"></span>
-                         </a>
+                </a>
                 <a href=""><span class="fab fa-fw fa-linkedin-in"></span>
-                                             </a> </div>
+                </a>
+            </div>
         </footer>
     </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </body>
 
 </html>

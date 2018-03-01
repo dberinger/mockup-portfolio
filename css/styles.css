@@ -5,6 +5,7 @@
 }
 
 img {
+    min-width: 100%;
     max-width: 100%;
 }
 
@@ -178,7 +179,7 @@ a {
 
     .grid-container {
         grid-template-columns: auto auto;
-        grid-template-rows: 15% 35% 35% 15%;
+        grid-template-rows: repeat(4, 1fr);
         grid-template-areas: ". header" "colors main" ". work" ". footer";
     }
 
@@ -211,7 +212,7 @@ a {
     }
 
     .feat-item img {
-        max-height: 200px;
+        min-height: 200px;
     }
 
     footer {
