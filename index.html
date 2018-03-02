@@ -6,24 +6,29 @@
     <meta charset="utf-8">
     <meta name="author" content="Daniel Beringer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:100%7CWaiting+for+the+Sunrise" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Portfolio - 2nd project</title>
 </head>
 
 <body>
     <div class="grid-container">
+
         <!-- HEADER -->
+
         <header class="arima">
             <div id="logo"><img src="img/img_opt/udacity-logo.jpg" alt="Udacity Logo" height="60">
             </div>
+
             <div id="author">
                 <h1 class="uppercase">Jane Doette</h1>
                 <p class="uppercase">Front-end ninja</p>
             </div>
         </header>
-        <!-- MAIN -->
-        <section id="main">
+
+        <!-- BIGGEST IMAGE -->
+
+        <section id="big-img">
             <img src="img/img_opt/webdesign-450.jpg" srcset="img/img_opt/webdesign-450.jpg 450w,
             img/img_opt/webdesign-700.jpg 700w,
             img/img_opt/webdesign-905.jpg 905w"
@@ -32,24 +37,31 @@
             (min-width: 1024px) 905px"
             alt="A picture of a laptop, notebook and a book">
         </section>
+
         <!-- COLOR PANELS -->
+
         <section id="color-panel" class="sun">
-            <div class="color-item">
+           <div class="color-item">
                 <div id="color-1"></div>
                 <p class="color-label">#E7717D</p>
             </div>
+
             <div class="color-item">
                 <div id="color-2"></div>
                 <p class="color-label">#C2CAD0</p>
             </div>
+
             <div class="color-item">
                 <div id="color-3"></div>
                 <p class="color-label">#AFD275</p>
             </div>
         </section>
+
         <!-- FEATURED WORK -->
-        <section id="feat-work">
+
+        <main id="feat-work">
             <h2 id="feat-work-title" class="arima">Featured Work</h2>
+
             <div class="feat-items-wrap">
                 <div class="feat-item">
                     <img src="img/img_opt/code-450.jpg"
@@ -63,6 +75,7 @@
                     <h2 class="uppercase arima">PHP app</h2>
                     <a class="git-link sun">github.com/example/app1</a>
                 </div>
+
                 <div class="feat-item">
                     <img src="img/img_opt/ipad-450.jpg"
                     srcset="img/img_opt/ipad-350.jpg 350w,
@@ -75,6 +88,7 @@
                     <h2 class="uppercase arima">RWD Website</h2>
                     <a class="git-link sun">github.com/example/app2</a>
                 </div>
+
                 <div class="feat-item">
                     <img src="img/img_opt/mac-450.jpg"
                     srcset="img/img_opt/mac-350.jpg 350w,
@@ -87,12 +101,15 @@
                     <h2 class="uppercase arima">Web app</h2>
                     <a class="git-link sun">github.com/example/app3</a>
                 </div>
-
             </div>
-        </section>
+
+        </main>
+
         <!-- FOOTER -->
+
         <footer>
             <p class="arima">Find me on:</p>
+
             <div id="social">
                 <a href="#"><span class="fab fa-fw fa-git"></span></a>
                 <a href=""><span class="fab fa-fw fa-twitter"></span></a>
@@ -100,7 +117,9 @@
             </div>
         </footer>
     </div>
+
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
 </body>
 
 </html>

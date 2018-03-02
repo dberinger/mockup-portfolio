@@ -81,7 +81,7 @@ header {
     background-color: #AFD275;
 }
 
-#main {
+#big-img {
     padding: 1em 0;
 
     grid-area: main;
@@ -97,6 +97,11 @@ header {
 #feat-work-title {
     color: #C2CAD0;
     font-weight: 300;
+}
+
+.feat-items-wrap {
+    display: flex;
+    flex-direction: column;
 }
 
 .feat-item {
@@ -158,8 +163,6 @@ a {
     }
 
     .feat-items-wrap {
-        display: flex;
-
         flex-flow: row wrap;
         justify-content: space-between;
     }
@@ -196,19 +199,25 @@ a {
         padding: 1em 2em;
     }
 
-    #main {
+    #big-img {
         overflow: hidden;
         height: 400px;
     }
 
     #feat-work {
         margin-top: 2em;
-
-        flex-flow: row nowrap;
     }
 
     #feat-work-title {
         font-size: 2em;
+    }
+
+    .feat-items-wrap {
+        flex-flow: row nowrap;
+    }
+
+    .feat-item {
+        max-width: 30%;
     }
 
     .feat-item img {
