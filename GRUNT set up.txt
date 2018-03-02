@@ -1,0 +1,10 @@
+1. Download Node.js and ImageMagick/GraphicsMagick
+2. in cmd run npm update -g npm
+3. in cmd as admin run npm install -g grunt-cli
+4. in project's root directory run npm install
+5. create a template by running npm init
+6. install grunt in project dir with npm install grunt --save-dev
+7. install plugins
+	a) npm install --save-dev grunt-contrib-imagemin
+		npm install grunt-responsive-images --save-dev
+			etc
